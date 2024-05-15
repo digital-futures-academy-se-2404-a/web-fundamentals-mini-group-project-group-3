@@ -1,0 +1,129 @@
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(38, 72, 139);
+    padding: 10px;
+    height: 50px;
+    margin: -8px; /* Why are we inheriting 8px margin from body which can only be overridden like this?*/
+}
+
+.half-navbar {
+    flex: 1;
+}
+
+form input, select {
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+#title {
+    color: white;
+    font-style: bold;
+    font-family: sans-serif;
+    font-size: xx-large; 
+}
+
+.full-page{
+    background-color: #E9EBEE;
+}
+
+#submitButton{
+    background-color: rgb(99, 164, 80);
+    color: rgb(255,255,255);
+}
+
+#imgSide{
+    flex: 1;
+    font-weight: bold;
+    font-size: large;
+}
+
+@font-face{
+    font-family: 'NimbusSanL-Reg';
+    src: url('fonts/NimbusSanL-Reg.ttf.woff') format('woff');
+}
+
+#accountTitle{
+    font-family:  'NimbusSanL-Reg';
+}
+
+#contents{
+    display: flex;
+    align-self: center;
+}
+
+#accountSide{
+    flex: 1;
+    height: 80%;
+    
+}
+
+#subhead{
+    font-weight: bold;
+}
+
+#accountSide > h2{
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+
+#numberEmail, #password{
+    width: ;
+}
+
+#name{
+    width:fit-content;
+}
+
+#form-box{
+    width: 100%
+}
+
+img[alt="People network"] {
+    position: relative;    
+    height: 240px;
+    margin-left: 100px;
+    max-width: 100%
+}
+
+#WelcomeMessage{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-style: bold;
+    font-weight: bold;
+    text-align: justify;
+    font-family: sans-serif;
+    max-width: 50%;
+}
+
+#genderButtons{
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

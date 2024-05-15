@@ -1,15 +1,73 @@
-<!-- <tag>Content</tag>
+    <!-- <tag>Content</tag>
 <selfclose attribute="double quotes to surround value"/> -->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="full-page">
+    <nav id="navbar">
+        <div id="navbar-left" class="half-navbar"> <!-- 50% max width -->
+            <p id="title">DFA Learn HTML/CSS</p>
+        </div> 
+        <div id="navbar-right" class="half-navbar"> <!-- 50% max width -->
+            <form> <!-- Login form top right corner-->
+                <input name="navbar-email" type="email" placeholder="Enter email..." required>
+                <input name="navbar-password" type="password" placeholder="Enter password.." required>
+                <button type="submit">Login</button>
+            </form>
+        </div> 
+    </nav>
     
+    <div id ="contents">
+        <div id = "imgSide">
+            <p id="WelcomeMessage">Facebook helps you to connect and share with the people in your life.</p>
+            <img src="./images/people-network.png" alt="People network">
+            
+        <div>
+    
+        <div id = "accountSide">
+            <h2 id="accountTitle">Create an account</h2>
+            <p id ="subhead">It's free and always will be</p>
+            <form id="form-box">
+
+                <div id = "name">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name"><br>
+                </div>
+                <div>
+                    <input type="text" id="numberEmail" name="numberEmail" placeholder="Mobile number or Email"><br>
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="New Password">
+                </div>
+                <h3>Birthday</h3>
+                <div>
+                    <select id="day">
+                        <option value="1day">1</option>=
+                    </select>
+                    <select id="month">
+                        <option value="1month">January</option>
+                    </select>
+                    <select id="year">
+                        <option value="2004">2004</option>
+                    </select>
+                </div>
+                <div id="genderButtons">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </div>
+            </form >
+            
+            <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+            <input type="submit" id="submitButton" value="Submit">
+        </div>
+    </div>
+    
+
 </body>
 
 </html>
