@@ -42,26 +42,47 @@ form input, select {
     flex: 1;
     font-weight: bold;
     font-size: large;
+    margin-top: 4px;
+    margin-right: 20px;
 }
 
-@font-face{
-    font-family: 'NimbusSanL-Reg';
-    src: url('fonts/NimbusSanL-Reg.ttf.woff') format('woff');
-}
 
-#accountTitle{
-    font-family:  'NimbusSanL-Reg';
-}
+#accountTitle { 
+    font-family: sans-serif;
+    color:rgb(56,56,56);
+    margin-top: 0;
+    margin-left: 5px;
+ } 
+ #subhead{
+    font-family: sans-serif;
+    margin-left: 5px;
+ }
+ #title{
+    font-family: sans-serif;
+    font-weight: bold;
+ }
 
 #contents{
+    margin-top: 50px;
     display: flex;
-    align-self: center;
+    font-family: sans-serif;
+
+}
+
+#contents > div {
+    flex: 1;
 }
 
 #accountSide{
-    flex: 1;
-    height: 80%;
-    
+    margin-left: 25px;
+}
+
+#TCs{
+    color:gray;
+    margin-left: 5px;
+    font-size: small;
+    max-width: 50%;
+
 }
 
 #subhead{
@@ -69,38 +90,44 @@ form input, select {
 }
 
 #accountSide > h2{
-    font-size: 36px;
-    padding-bottom: 0px;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+#birthday-heading{
+   margin-bottom: 0px;
+   font-weight: 700;
+   margin-left: 5px;
+   font-family: sans-serif;
 }
 
 #numberEmail, #password{
-    width: ;
+    width: 95%
 }
 
-#name{
-    width:fit-content;
+#name {
+    width:100%;
 }
 
 #form-box{
-    width: 100%
+    display: inline-block;
+    padding-right: 10px;
 }
+    
 
 img[alt="People network"] {
-    position: relative;    
-    height: 240px;
+    position: relative;   
     margin-left: 100px;
-    max-width: 100%
+    max-width: 80%;
 }
 
 #WelcomeMessage{
-    font-size: 20px;
+    font-size: large;
     margin-left: 100px;
-    margin-top: 50px;
-    font-style: bold;
     font-weight: bold;
     text-align: justify;
-    font-family: sans-serif;
-    max-width: 50%;
+    
+    margin-top: 0;
 }
 
 #genderButtons{
@@ -108,22 +135,15 @@ img[alt="People network"] {
     
 }
 
+button {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#submitButton{
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 5px;
+}
